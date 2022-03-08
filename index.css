@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Baloo;
+
+}
+
+body {
+    padding: 3em;
+    background: #1c1c1f;
+
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#emoji-container {
+    margin: 2em 0 3em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+
+    background: #202025;
+    padding: 2em;
+    border-radius: 0.5em;
+}
+
+#emoji-container span {
+    margin: 0;
+    font-size: 60px;
+}
+
+#push-btn,
+#unshift-btn,
+#shift-btn,
+#pop-btn {
+    background-color: #fff;
+    color: #202025;
+    position: relative;
+    cursor: pointer;
+}
+
+h1 {
+    letter-spacing: 2px;
+    color: white;
+    font-size: 4rem;
+    max-width: 6ch;
+    margin: 0; 
+    font-weight: 300;
+}
+
+h1 span {
+    font-weight: 900;
+    font-size: 6rem;
+    letter-spacing: 5px;
+    color: rgb(255, 170, 131);
+}
+
+input {
+    display: block;
+    border: none;
+    background: white;
+    color: #202025;
+    border-radius: 6px;
+    padding: 0.5em 1.5em;
+    width: 100%;
+    text-align: left;
+    letter-spacing: 0.5px;
+}
+
+input:focus,
+#push-btn:focus,
+#unshift-btn:focus,
+#shift-btn:focus,
+#pop-btn:focus
+ {
+    outline: 2px solid rgb(255, 170, 131);
+    outline-offset: 2px;
+}
+
+#push-btn:hover,
+#unshift-btn:hover,
+#shift-btn:hover,
+#pop-btn:hover {
+    background: rgb(230, 150, 113);
+    color: #fff;
+}
+
+button {    
+    font-family: Baloo;
+    letter-spacing: 0.5px;
+    color: white;
+    border: none;
+    padding: 0.5em 1.5em;
+    border-radius: 6px;
+    margin-right: 0.5em;
+}
+
+.buttons-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px 0 40px;
+}
+
+#emoji-input {
+    margin-bottom: 3em;
+}
+
+.icon {
+    width: 2em;
+    height: 2em;
+    margin-right: 0.5em;
+}
