@@ -1,19 +1,10 @@
-# title(){return this.options.title||this.options.name}
+# My Emoji App
 
-Quick start:
+This is an emoji app built following a tutorial by Scrima! 
+(with some extra style added of course!)
 
-```
-$ yarn # npm install
-$ yarn build # npm run build
-````
-
-## Development
-
-Run Webpack in watch-mode to continually compile the JavaScript as you work:
-
-```
-$ yarn watch # npm run watch
-```
+Some of the JS has been refactored from the original to make it DRYer 
+and the CSS has been almost completely remade!
 
 ## Supporting Scrimba
 
